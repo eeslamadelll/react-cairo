@@ -46,5 +46,19 @@
       }
     }
   },
-  "defaultProject": "react-app"
+  "defaultProject": "react-app",
+  "targetDependencies": {
+    "dev": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ],
+    "start": [
+      {
+        "target": "build",
+        "projects": "self"
+      }
+    ]
+  }
 }
