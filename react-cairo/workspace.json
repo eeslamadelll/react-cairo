@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "nextjs-app": "apps/nextjs-app",
+    "nextjs-app-e2e": "apps/nextjs-app-e2e",
     "react-app": "apps/react-app",
     "react-app-e2e": "apps/react-app-e2e"
   }
