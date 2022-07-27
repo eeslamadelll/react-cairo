@@ -5,11 +5,14 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "postinstall": "remix setup node"
   },
   "private": true,
   "dependencies": {
     "@nrwl/next": "14.4.3",
+    "@remix-run/react": "^1.0.6",
+    "@remix-run/serve": "^1.0.6",
     "core-js": "^3.6.5",
     "next": "12.1.6",
     "react": "18.2.0",
@@ -17,6 +20,7 @@
     "react-is": "18.2.0",
     "react-router-dom": "6.3.0",
     "regenerator-runtime": "0.13.7",
+    "remix": "^1.0.6",
     "styled-components": "5.3.5",
     "tslib": "^2.3.0"
   },
@@ -31,6 +35,7 @@
     "@nrwl/remix": "^14.4.2",
     "@nrwl/web": "14.4.3",
     "@nrwl/workspace": "14.4.3",
+    "@remix-run/dev": "^1.0.6",
     "@testing-library/react": "13.3.0",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.7",
@@ -59,5 +64,8 @@
     "ts-jest": "27.1.4",
     "ts-node": "~10.8.0",
     "typescript": "~4.7.2"
-  }
+  },
+  "workspaces": [
+    "libs/*"
+  ]
 }
