@@ -28,6 +28,7 @@
     "@nrwl/linter": "14.4.3",
     "@nrwl/next": "^14.4.3",
     "@nrwl/react": "^14.4.3",
+    "@nrwl/remix": "^14.4.2",
     "@nrwl/web": "14.4.3",
     "@nrwl/workspace": "14.4.3",
     "@testing-library/react": "13.3.0",
