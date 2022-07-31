@@ -11,6 +11,7 @@ export function App() {
   return (
     <StyledApp>
       <NxWelcome title="react-app" />
+      <span>Vercel shouldn't build this commit</span>
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
