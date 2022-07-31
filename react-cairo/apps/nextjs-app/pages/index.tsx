@@ -17,6 +17,7 @@ export function Index() {
         <div className="container">
           <div id="welcome">
             <h1>
+              <span>Trying Vercel</span>
               <span> Hello there, </span>
               Welcome nextjs-app 👋
             </h1>
