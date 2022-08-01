@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Typography } from '@react-cairo/ui';
 
 const StyledPage = styled.div`
   .page {
@@ -19,6 +20,7 @@ export function Index() {
             <h1>
               <span> Hello there, </span>
               Vercel... 👋
+              <Typography text="From the ui shared lib" />
             </h1>
           </div>
 
