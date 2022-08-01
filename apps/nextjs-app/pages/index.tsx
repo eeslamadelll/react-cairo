@@ -19,7 +19,7 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Vercel... 👋
+              Vercel...... 👋
               <Typography text="From the ui shared lib" />
             </h1>
           </div>
