@@ -419,7 +419,7 @@ export function NxWelcome({ title }: { title: string }) {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Only react deploy... 👋
+              Only react deploy...... 👋
               <Typography text="From the ui shared lib" />
             </h1>
           </div>
