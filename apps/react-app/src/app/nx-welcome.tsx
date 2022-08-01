@@ -5,6 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
+import { Typography } from '@react-cairo/ui';
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
@@ -419,6 +420,7 @@ export function NxWelcome({ title }: { title: string }) {
             <h1>
               <span> Hello there, </span>
               Only react deploy 👋
+              <Typography text="From the ui shared lib" />
             </h1>
           </div>
 
