@@ -6,6 +6,7 @@
     "nextjs-app-e2e": "apps/nextjs-app-e2e",
     "react-app": "apps/react-app",
     "react-app-e2e": "apps/react-app-e2e",
-    "remix-app": "apps/remix-app"
+    "remix-app": "apps/remix-app",
+    "ui": "libs/ui"
   }
 }
