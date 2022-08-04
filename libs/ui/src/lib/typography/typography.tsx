@@ -11,7 +11,7 @@ const StyledTypography = styled.div`
 export function Typography({ text }: TypographyProps) {
   return (
     <StyledTypography>
-      <h1>{text} From shared lib...</h1>
+      <h1>{text} From shared lib.....</h1>
     </StyledTypography>
   );
 }
