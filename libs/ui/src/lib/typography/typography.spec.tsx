@@ -4,7 +4,7 @@ import Typography from './typography';
 
 describe('Typography', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Typography />);
+    const { baseElement } = render(<Typography text="" />);
     expect(baseElement).toBeTruthy();
   });
 });
