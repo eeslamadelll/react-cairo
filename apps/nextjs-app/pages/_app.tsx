@@ -1,7 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import './styles.css';
-
+console.log();
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
